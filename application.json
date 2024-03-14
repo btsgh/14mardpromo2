@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Page4",
+      "isDefault": false
+    },
+    {
       "id": "Table2",
       "isDefault": false
     },
@@ -43,7 +47,11 @@
   },
   "color": "#F1DEFF",
   "icon": "package",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
